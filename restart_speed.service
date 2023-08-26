@@ -3,7 +3,7 @@ Description = Python Script
 After = multi-user.target
 
 [Service]
-Type = oneshot
+Type = simple
 WorkingDirectory = /home/nvidia/inv/
 ExecStart = /usr/bin/python3 speed.py
 Restart = always
